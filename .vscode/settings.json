@@ -9,5 +9,8 @@
   ],
   "css.validate": false, // Disable css built-in lint
   "stylelint.enable": true, // Enable sytlelint
-  "importSorter.generalConfiguration.sortOnBeforeSave": true
+  "importSorter.generalConfiguration.sortOnBeforeSave": true,
+  "[json]": {
+    "editor.largeFileOptimizations": false
+  }
 }
